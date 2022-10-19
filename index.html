@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/NEW_PROJECT/assets/css/template.css">
+    <link rel="icon" type="image/x-icon" href="/NEW_PROJECT/assets/images/icon1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+   <script type="text/javascript">  
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+                else{
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="">
+                    <img src="/NEW_PROJECT/assets/images/dev_logo.png" alt="">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="active">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#projetos">Projetos</a>
+                        </li>
+                        <li>
+                            <a href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>
+                        <div class="mn_line"></div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="geral">
+        <div class="container">
+            <section class="content">
+                <article>
+                    <div class="port_resume">
+                        <p class="port_title">Olá</p>
+                        <p class="port_text1">EU SOU</p>
+                        <p class="port_text2">Kenidy W.S</p>
+                        <p class="desc">Desenvolvedor Front-End</p>
+                    </div>
+                </article>
+            </section>
+            <div class="bg" >
+                <img src="/NEW_PROJECT/assets/images/Programming-pana (1).png" alt="" class="back_image">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="social_medias">
+            <a href="#FB"><img src="/NEW_PROJECT/assets/images/facebook (1).png" alt=""></a>
+            <a href="#INSTA"><img src="/NEW_PROJECT/assets/images/instagram.png" alt=""></a>
+            <a href="#LINKED"><img src="/NEW_PROJECT/assets/images/linkedin (1).png" alt=""></a>
+        </div>
+        <div class="footer_copy">
+            Copyright - Todos os direitos reservados - KenidyWS ©
+        </div>
+    </footer>
+</body>
+</html>
